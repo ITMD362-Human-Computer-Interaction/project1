@@ -8,8 +8,13 @@ https://paletton.com/#uid=b3k5a5B0kosnMeFvWjQr5rJjfxGd+
    padding-top: 5%;
    padding-bottom: 5%;
  }
- header h1{
+h1{
    font-size: 2rem;
+   font-weight: 700;
+   font-family: 'Audiowide', cursive;
+ }
+ h3{
+   font-size: 1.3rem;
    font-weight: 700;
  }
 
@@ -19,5 +24,16 @@ https://paletton.com/#uid=b3k5a5B0kosnMeFvWjQr5rJjfxGd+
  }
 
  #terms-of-service{
-   
+   margin: 5% auto;
+   width: 50%;
+   border: 1px solid black;
+ }
+ #terms-of-service ol{
+  text-align: left;
+  padding: 5%;
+ }
+ #terms-of-service li{
+  text-align: left;
+  padding-bottom: 5%;
+  line-height: 1.2;
  }
