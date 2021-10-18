@@ -1,21 +1,19 @@
 /* Color Palette 
 https://paletton.com/#uid=b3k5a5B0kosnMeFvWjQr5rJjfxGd+
  */
-html{
-}
 body{
   height: 98vh;
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #1c6c73;
   border: solid 1vh #7B104D;
 }
- header{
-   width: 100%;
-   text-align: center;
-   padding-top: 5%;
-   padding-bottom: 5%;
-   /* background-color: #337c83; */
- }
+header{
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* background-color: #337c83; */
+}
 h1{
    font-size: 2rem;
    font-weight: 700;
@@ -33,22 +31,18 @@ h1{
    font-weight: 700;
    font-family: 'Roboto Condensed', sans-serif;
  }
- 
 #main{
    width: 100%;
    text-align: center;
  }
-
  #main input{
   margin-bottom: 3%;
  }
-
  #main label{
    font-size: 1.1rem;
    color: #8CD2D8;
    font-weight: 500;
  }
-
  #terms-of-service{
    padding-top: 3%;
    margin: 5% auto;
@@ -65,3 +59,15 @@ h1{
   padding-bottom: 5%;
   line-height: 1.2;
  }
+
+
+ /* TODO
+ - Style the submit btn
+ - Style checkboxes
+ - Add queries for tablet and desktop
+ - Add javascript for age validation
+ - Add javascript for form validation
+ - Add javasript for terms and service validation
+ - Add javascript for confirmation text
+ 
+ */
