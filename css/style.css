@@ -1,7 +1,9 @@
 /* Color Palette 
 https://paletton.com/#uid=b3k5a5B0kosnMeFvWjQr5rJjfxGd+
  */
-
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
  header{
    width: 100%;
    text-align: center;
@@ -13,19 +15,31 @@ h1{
    font-weight: 700;
    font-family: 'Audiowide', cursive;
  }
+ h2{
+   font-size: 1.4rem;
+   font-weight: 700;
+   padding-bottom: 5%;
+ }
  h3{
    font-size: 1.3rem;
    font-weight: 700;
+   font-family: 'Roboto Condensed', sans-serif;
  }
+ 
 
 #main{
    width: 100%;
    text-align: center;
  }
 
+ #main input{
+  margin-bottom: 3%;
+ }
+
  #terms-of-service{
+   padding-top: 3%;
    margin: 5% auto;
-   width: 50%;
+   width: 65%;
    border: 1px solid black;
  }
  #terms-of-service ol{
