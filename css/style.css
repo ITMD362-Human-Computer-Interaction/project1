@@ -1,3 +1,23 @@
 /* Color Palette 
 https://paletton.com/#uid=b3k5a5B0kosnMeFvWjQr5rJjfxGd+
  */
+
+ header{
+   width: 100%;
+   text-align: center;
+   padding-top: 5%;
+   padding-bottom: 5%;
+ }
+ header h1{
+   font-size: 2rem;
+   font-weight: 700;
+ }
+
+#main{
+   width: 100%;
+   text-align: center;
+ }
+
+ #terms-of-service{
+   
+ }
