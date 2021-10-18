@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" async></script>
 </head>
 <body>
-    
+  <header>
+    <h1>Squid Game Sign Up</h1>
+  </header>
+  <section>
+    <form action="#null" method="POST" autocomplete="on">
+      <div class="label-input">
+        <label for="fname">Primary Name</label>
+        <input id="fname" type="text" name="fname-field" placeholder="Gi-Hun">
+      </div>
+      <div class="label-input">
+        <label for="lname">Family Name</label>
+        <input id="lname" type="text" name="lname-field" placeholder="Seong">
+      </div>
+      <div class="label-input">
+        <label for="city">City</label>
+        <input id="city" type="text" name="city-field" placeholder="Ssangmun-dong">
+      </div>
+      <div class="label-input">
+        <label for="country">Country</label>
+        <input id="country" type="text" name="country-field" placeholder="South Korea">
+      </div>
+      <div class="label-input">
+        <label for="phone">Phone</label>
+        <input id="phone" type="tel" name="phone-field" placeholder="1234567890">
+      </div>
+      <div class="label-input">
+        <input type="checkbox" id="age-verification" name="age-verification" value="18" />
+        <label for="age-verification">I am over 18 years old</label>
+      </div>
+      <div class="label-input">
+        <input type="checkbox" id="agree" name="agree" value="true" />
+        <label for="agree">I have read and agree to the terms of service</label>
+      </div>
+      <input type="submit" name="submit" id="submit" value="Submit" />
+
+    </form>
+  </section>
+
 </body>
 </html>
