@@ -1,19 +1,27 @@
 /* Color Palette 
 https://paletton.com/#uid=b3k5a5B0kosnMeFvWjQr5rJjfxGd+
  */
+html{
+}
 body{
+  height: 98vh;
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: #1c6c73;
+  border: solid 1vh #7B104D;
 }
  header{
    width: 100%;
    text-align: center;
    padding-top: 5%;
    padding-bottom: 5%;
+   /* background-color: #337c83; */
  }
 h1{
    font-size: 2rem;
    font-weight: 700;
    font-family: 'Audiowide', cursive;
+   color: #013E44;
+   -webkit-text-stroke: 1px #AD427F;
  }
  h2{
    font-size: 1.4rem;
@@ -26,7 +34,6 @@ h1{
    font-family: 'Roboto Condensed', sans-serif;
  }
  
-
 #main{
    width: 100%;
    text-align: center;
@@ -36,11 +43,18 @@ h1{
   margin-bottom: 3%;
  }
 
+ #main label{
+   font-size: 1.1rem;
+   color: #8CD2D8;
+   font-weight: 500;
+ }
+
  #terms-of-service{
    padding-top: 3%;
    margin: 5% auto;
    width: 65%;
-   border: 1px solid black;
+   border: 2px solid #013E44;
+   background-color: #55959B;
  }
  #terms-of-service ol{
   text-align: left;
