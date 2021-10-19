@@ -1,9 +1,6 @@
-/* Color Palette 
-https://paletton.com/#uid=b3k5a5B0kosnMeFvWjQr5rJjfxGd+
- */
 body{
   height: 98vh;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', Tahoma, sans-serif;
   background-color: #1c6c73;
   border: solid 1vh #7B104D;
 }
@@ -16,7 +13,7 @@ header{
 h1{
    font-size: 2rem;
    font-weight: 700;
-   font-family: 'Audiowide', cursive;
+   font-family: 'Audiowide', cursive, 'Courier New', monospace;
    color: #013E44;
    -webkit-text-stroke: 1px #AD427F;
  }
@@ -28,7 +25,7 @@ h1{
  h3{
    font-size: 1.3rem;
    font-weight: 700;
-   font-family: 'Roboto Condensed', sans-serif;
+   font-family: 'Roboto Condensed', Tahoma, sans-serif;
  }
 #main{
    width: 100%;
