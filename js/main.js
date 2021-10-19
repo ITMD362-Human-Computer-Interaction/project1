@@ -7,7 +7,14 @@ console.log("hello")
 document.getElementById("submit").addEventListener("click", function(evt) {
   evt.preventDefault();
   if(inputCheck() && checkBoxes()){
-    console.log("input is good")
+    section = document.getElementById("main");
+    section.innerHTML = "";
+    thankYouNode = document.createElement("h2");
+    thankYouNode.innerHTML = "Thank You for Applying";
+    confirmationNode = document.createElement("h3");
+    confirmationNode.innerHTML = "We will contact you soon"
+    section.appendChild(thankYouNode);
+    section.appendChild(confirmationNode);
   }
 
  });
