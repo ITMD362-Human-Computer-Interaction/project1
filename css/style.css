@@ -12,7 +12,6 @@ header{
   text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
-  /* background-color: #337c83; */
 }
 h1{
    font-size: 2rem;
@@ -66,9 +65,63 @@ h1{
   border-radius: 5px;
 }
 
+@media only screen and (min-width: 768px){
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  #main label{
+    font-size: 1.3rem;
+  }
+  .label-input input{
+    height: 1.6rem;
+  }
+  #terms-of-service li{
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  #main input{
+    margin-bottom: 1rem;
+   }
+  #main label{
+    font-size: 1.3rem;
+  }
+  .label-input input{
+    height: 1.6rem;
+  }
+  #terms-of-service{
+    padding-top: 3rem;
+    margin: 1rem auto;
+    max-width: 600px;
+  }
+  #terms-of-service li{
+    font-size: 1.3rem;
+  }
+}
+
 
  /* TODO
- - Add queries for tablet and desktop
  - Add javascript for age validation
  - Add javascript for form validation
  - Add javasript for terms and service validation
