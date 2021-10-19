@@ -59,11 +59,15 @@ h1{
   padding-bottom: 5%;
   line-height: 1.2;
  }
+ #main #submit{
+  padding: .5rem;
+  background-color:#8CD2D8;
+  border: solid #013e44 2px;
+  border-radius: 5px;
+}
 
 
  /* TODO
- - Style the submit btn
- - Style checkboxes
  - Add queries for tablet and desktop
  - Add javascript for age validation
  - Add javascript for form validation
