@@ -16,52 +16,51 @@ h1{
    font-family: 'Audiowide', cursive, 'Courier New', monospace;
    color: #013E44;
    -webkit-text-stroke: 1px #AD427F;
- }
- h2{
-   font-size: 1.4rem;
-   font-weight: 700;
-   padding-bottom: 5%;
- }
- h3{
-   font-size: 1.3rem;
-   font-weight: 700;
-   font-family: 'Roboto Condensed', Tahoma, sans-serif;
- }
+}
+h2{
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-bottom: 5%;
+}
+h3{
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', Tahoma, sans-serif;
+}
 #main{
    width: 100%;
    text-align: center;
- }
- #main input{
-  margin-bottom: 3%;
- }
- #main label{
-   font-size: 1.1rem;
-   color: #8CD2D8;
-   font-weight: 500;
- }
- #terms-of-service{
-   padding-top: 3%;
-   margin: 5% auto;
-   width: 65%;
-   border: 2px solid #013E44;
-   background-color: #55959B;
- }
- #terms-of-service ol{
+}
+#main input{
+margin-bottom: 3%;
+}
+#main label{
+  font-size: 1.1rem;
+  color: #8CD2D8;
+  font-weight: 500;
+}
+#terms-of-service{
+  padding-top: 3%;
+  margin: 5% auto;
+  width: 65%;
+  border: 2px solid #013E44;
+  background-color: #55959B;
+}
+#terms-of-service ol{
   text-align: left;
   padding: 5%;
- }
- #terms-of-service li{
+}
+#terms-of-service li{
   text-align: left;
   padding-bottom: 5%;
   line-height: 1.2;
- }
- #main #submit{
+}
+#main #submit{
   padding: .5rem;
   background-color:#8CD2D8;
   border: solid #013e44 2px;
   border-radius: 5px;
 }
-
 #main #submit:hover{
   background-color: #AD427F;
 }
