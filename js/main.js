@@ -1,11 +1,6 @@
- /* TODO
- - Add javascript for confirmation text
- 
- */
-
-console.log("hello")
 document.getElementById("submit").addEventListener("click", function(evt) {
   evt.preventDefault();
+  
   if(inputCheck() && checkBoxes()){
     section = document.getElementById("main");
     section.innerHTML = "";
@@ -16,7 +11,6 @@ document.getElementById("submit").addEventListener("click", function(evt) {
     section.appendChild(thankYouNode);
     section.appendChild(confirmationNode);
   }
-
  });
 
  function inputCheck(){
