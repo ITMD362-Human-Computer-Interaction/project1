@@ -3,7 +3,6 @@
 * Use a modular scale to build line height. Use a CSS comment to identify which modular scale you used. 
 * Vertically align your input boxes. Use spacing between labels and input 
   boxes so that you can also vertically align the first letter of each label. 
-* Your inputs on mobile screens should be at least 90% screen width to make them touch friendly.
 
 */
 body{
@@ -42,7 +41,7 @@ h3{
 }
 #main .label-input input{
   display: block;
-  min-width: 100%;
+  width: 100%;
   margin: 2% auto;
 }
 #main .label-input label{
@@ -137,14 +136,26 @@ h3{
   h3{
     font-size: 1.5rem;
   }
-  #main input{
-    margin-bottom: 1rem;
-   }
-  #main label{
-    font-size: 1.3rem;
+  #main{
+    width: 50%;
   }
-  .label-input input{
+   #main .label-input input{
+    display: inline;
+    min-width: none;
+    width: 50%;
+    margin: 0;
     height: 1.6rem;
+  }
+  #main .label-input label{
+    font-size: 1.3rem;
+    display: inline;
+    width: 20%;
+    margin-left: 15%;
+    
+  }
+  .label-input {
+    align-content: center;
+    margin-bottom: 2%;
   }
   #terms-of-service{
     padding-top: 3rem;
