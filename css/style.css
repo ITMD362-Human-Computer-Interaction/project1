@@ -1,3 +1,11 @@
+/*
+
+* Use a modular scale to build line height. Use a CSS comment to identify which modular scale you used. 
+* Vertically align your input boxes. Use spacing between labels and input 
+  boxes so that you can also vertically align the first letter of each label. 
+* Your inputs on mobile screens should be at least 90% screen width to make them touch friendly.
+
+*/
 body{
   height: 98vh;
   font-family: 'Roboto Condensed', Tahoma, sans-serif;
