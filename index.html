@@ -17,38 +17,28 @@
 <body>
   <header>
     <h1>Squid Game</h1>
+    <h2>Sign up to play games and earn money</h2>
   </header>
   <section id="main">
-    <h2>Sign up to play games and earn money</h2>
     <form action="#null" method="POST" autocomplete="on">
       <div class="label-input">
-        <div class="label">
-          <label for="fname">Primary Name</label>
-        </div>
+        <label for="fname">Primary Name</label>
         <input id="fname" type="text" name="fname-field" placeholder="Gi-Hun">
       </div>
       <div class="label-input">
-        <div class="label">
-          <label for="lname">Family Name</label>
-        </div>
+        <label for="lname">Family Name</label>
         <input id="lname" type="text" name="lname-field" placeholder="Seong">
       </div>
       <div class="label-input">
-        <div class="label">
-          <label for="city">City</label>
-        </div>
+        <label for="city">City</label>
         <input id="city" type="text" name="city-field" placeholder="Ssangmun-dong">
       </div>
       <div class="label-input">
-        <div class="label">
-          <label for="country">Country</label>
-        </div>
+        <label for="country">Country</label>
         <input id="country" type="text" name="country-field" placeholder="South Korea">
       </div>
       <div class="label-input">
-        <div class="label">
-          <label for="phone">Phone</label>
-        </div>
+        <label for="phone">Phone</label>
         <input id="phone" type="tel" name="phone-field" placeholder="1234567890">
       </div>
       <div id="terms-of-service">
@@ -59,15 +49,17 @@
           <li>3. If a majority of players agree to stop playing, the games are allowed to end.</li>
         </ol>
       </div>
-      <div class="label-input ">
+      <div class="checkbox">
+        <label for="age-verification" class="checkbox">I am over 18 years old</label>
         <input type="checkbox" id="age-verification" name="age-verification" value="18" />
-        <label for="age-verification">I am over 18 years old</label>
       </div>
-      <div class="label-input">
+      <div class="checkbox">
+        <label for="agree" >I have read and agree to the terms of service</label>
         <input type="checkbox" id="agree" name="agree" value="true" />
-        <label for="agree">I have read and agree to the terms of service</label>
       </div>
-      <input type="submit" name="submit" id="submit" value="Sign Up" />
+      <div class="btn">
+        <input type="submit" name="submit" id="submit" value="Sign Up" />
+      </div>
     </form>
   </section>
 </body>

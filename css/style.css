@@ -28,7 +28,7 @@ h1{
 h2{
   font-size: 1.4rem;
   font-weight: 700;
-  padding-bottom: 5%;
+  padding-top: 1%;
 }
 h3{
   font-size: 1.3rem;
@@ -36,21 +36,27 @@ h3{
   font-family: 'Roboto Condensed', Tahoma, sans-serif;
 }
 #main{
-   width: 100%;
-   text-align: center;
+  width: 90%;
+  margin: 1% auto;
+  
 }
-#main input{
-margin-bottom: 3%;
+#main .label-input input{
+  display: block;
+  min-width: 100%;
+  margin: 2% auto;
 }
-#main label{
+#main .label-input label{
+  display: block;
+  float: left;
   font-size: 1.1rem;
   color: #8CD2D8;
   font-weight: 500;
 }
 #terms-of-service{
+  text-align: center;
   padding-top: 3%;
   margin: 5% auto;
-  width: 65%;
+  width: 85%;
   border: 2px solid #013E44;
   background-color: #55959B;
 }
@@ -63,11 +69,27 @@ margin-bottom: 3%;
   padding-bottom: 5%;
   line-height: 1.2;
 }
+#main .checkbox label{
+  text-align: center;
+  display: inline;
+  font-size: 1.1rem;
+  color: #8CD2D8;
+  font-weight: 500;
+}
+#main .checkbox input{
+  display: inline;
+  height: 1rem;
+  margin: 2% auto;
+}
+#main .btn{
+  text-align: center;
+}
 #main #submit{
   padding: .5rem;
   background-color:#8CD2D8;
   border: solid #013e44 2px;
   border-radius: 5px;
+  margin-top: 2%;
 }
 #main #submit:hover{
   background-color: #AD427F;
