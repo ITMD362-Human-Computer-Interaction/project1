@@ -114,6 +114,12 @@ h3{
   #terms-of-service li{
     font-size: 1.3rem;
   }
+  #main .checkbox {
+    text-align: center;
+  }
+  #main .checkbox input{
+    margin-left: 1%;
+  }
 }
 
 @media only screen and (min-width: 1200px){
